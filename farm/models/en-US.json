@@ -1,0 +1,122 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "farm assistant",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "Usda",
+          "slots": [],
+          "samples": [
+            "usda office that is closest to me",
+            "usda office that is closest",
+            "closest usda office",
+            "closest usda",
+            "nearest usda",
+            "office of usda",
+            "find me usda office",
+            "please find usda office",
+            "where can I find usda",
+            "usda location",
+            "location of usda",
+            "usda address",
+            "address of usda",
+            "what is the address of the usda office",
+            "where is the usda office",
+            "where is the nearest usda office"
+          ]
+        },
+        {
+          "name": "IrrigationStatus",
+          "slots": [],
+          "samples": [
+            "irrigation update",
+            "irrigation conditions",
+            "irrigation status",
+            "irrigate",
+            "ok irrigate",
+            "shall irrigate",
+            "can irrigate",
+            "Lets irrigate",
+            "Shall we irrigate",
+            "When do I irrigate",
+            "Can I irrigate",
+            "Should I irrigate",
+            "Should I irrigate today"
+          ]
+        },
+        {
+          "name": "WaterQuality",
+          "slots": [],
+          "samples": [
+            "quality of water in my farm",
+            "tell me about quality of water in my farm",
+            "my farm's water quality",
+            "water quality in my farm",
+            "water of quality",
+            "quality of water",
+            "show me water quality",
+            "water quality now",
+            "what is quality of water",
+            "water quality score now",
+            "water quality score",
+            "what is the water quality",
+            "water quality",
+            "what is the quality of my water",
+            "what is my water quality score"
+          ]
+        },
+        {
+          "name": "FarmStatus",
+          "slots": [],
+          "samples": [
+            "todays farm status",
+            "farm status now",
+            "plot status",
+            "farm status of plot",
+            "farm status of my plot",
+            "show me farm status",
+            "whats happening in my farm",
+            "whats happening on my farm",
+            "status of farm",
+            "show me the status of my farm",
+            "Farm status",
+            "Status of my farm"
+          ]
+        },
+        {
+          "name": "AllUpdates",
+          "slots": [],
+          "samples": [
+            "give me all the updates",
+            "all the updates",
+            "show me all the updates",
+            "show me all the notifications",
+            "all the notifications",
+            "all updates",
+            "give me all updates",
+            "show me all updates",
+            "get all updates"
+          ]
+        }
+      ],
+      "types": []
+    }
+  },
+  "version": "6"
+}

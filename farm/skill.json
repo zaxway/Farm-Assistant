@@ -1,0 +1,63 @@
+{
+  "manifest": {
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "sourceDir": "lambda/",
+          "uri": "arn:aws:lambda:us-east-1:018683716740:function:f719ca93-ee79-4735-8c5d-6c26eaa1e375:Release_0"
+        }
+      }
+    },
+    "permissions": [
+      {
+        "name": "alexa::devices:all:address:full:read"
+      },
+      {
+        "name": "alexa::devices:all:notifications:write"
+      }
+    ],
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "name": "farm"
+        }
+      }
+    },
+    "events": {
+      "publications": [
+        {
+          "eventName": "AMAZON.MessageAlert.Activated"
+        }
+      ],
+      "endpoint": {
+        "uri": "arn:aws:lambda:us-east-1:018683716740:function:f719ca93-ee79-4735-8c5d-6c26eaa1e375:Release_0"
+      },
+      "subscriptions": [
+        {
+          "eventName": "SKILL_PROACTIVE_SUBSCRIPTION_CHANGED"
+        }
+      ],
+      "regions": {
+        "NA": {
+          "endpoint": {
+            "uri": "arn:aws:lambda:us-east-1:018683716740:function:f719ca93-ee79-4735-8c5d-6c26eaa1e375:Release_0"
+          }
+        }
+      }
+    },
+    "manifestVersion": "1.0",
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "locales": {
+        "en-US": {
+          "termsOfUseUrl": "http://dabblelab.com/terms",
+          "privacyPolicyUrl": "http://dabblelab.com/privacy"
+        }
+      },
+      "isExportCompliant": true,
+      "containsAds": false,
+      "isChildDirected": false,
+      "usesPersonalInfo": false
+    }
+  }
+}
